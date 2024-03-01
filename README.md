@@ -61,9 +61,9 @@ Para ejecutar las pruebas ingrese el siguiente comando en la línea de comandos:
 mvn test
 ```
 
-### Casos de Prueba
+## Casos de Prueba
 
-  ## Caso de Prueba: Buscar archivos estáticos
+  ### Caso de Prueba: Buscar archivos estáticos
   * ingresar a la URL http://localhost:35000/Browser.html
     
 
@@ -85,7 +85,7 @@ mvn test
 
 ![image](https://github.com/FDanielMC/AREP_LAB-3/assets/123689924/43ed16ec-1ad2-4d81-bb89-5c823549b8ef)
 
-  ## Caso de Prueba: Uso de POST
+  ### Caso de Prueba: Uso de POST
   * Mediante Postman se hará la prueba, así ver que la aplicación también recibe peticios HTTP del tipo POST:
       - Por ahora el único recurso que recibe peticiones del tipo POST es /action/update y en caso de que el recurso no esté saldrá la página de error. 
 
