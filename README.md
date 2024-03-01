@@ -45,14 +45,10 @@ En caso que no aparezcan el JAVADOC luego de haber ejecutado ese comando se pued
 ## INICIANDO EL PROYECTO
 
 ```
-1. En un IDE de desarrollo o en la línea de comandos se ejecuta la clase MovieClient.java, se recomienda hacerlo desde la línea de comandos. 
+1. En un IDE de desarrollo o en la línea de comandos se ejecuta la clase MovieClient.java, se recomienda hacerlo desde NetBeans. 
 ```
 
-Si desea hacerlo usando la linea de comandos, use los siguientes comandos (se recomienda hacerlo de esta manera):
-```
-mvn clean compile
-mvn exec:java
-```
+![image](https://github.com/FDanielMC/AREP_LAB-4/assets/123689924/f2384356-da1e-49fe-b8af-4aa734395b65)
 
 ## EJECUTAR PRUEBAS
 
@@ -65,7 +61,8 @@ mvn test
 
   ### Caso de Prueba: Buscar archivos estáticos
   * ingresar a la URL http://localhost:35000/Browser.html
-    
+
+  
 
   * En caso que no esté el recurso o no se busque ningún recurso saldrá la página de error 404:
 
