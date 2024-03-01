@@ -73,23 +73,11 @@ mvn test
 ![image](https://github.com/FDanielMC/AREP_LAB-3/assets/123689924/8f0825fe-113e-4f59-bf11-d69044f5ebe7)
 
   ## Caso de Prueba: Buscar recursos REST con consultas
-  * A su vez se puede ingresar parámetros en los recursos para poder interactuar con la página de cada recurso: /action/movies?name=(nombre película) y /action/Mensaje?mensaje=(mensaje que aparezca en pantalla)
+  * A su vez se puede ingresar parámetros en los recursos para poder interactuar con la página de cada recurso: /activity/movies?name=(nombre película) y /activity/Mensaje?mensaje=(mensaje que aparezca en pantalla)
 
-![image](https://github.com/FDanielMC/AREP_LAB-3/assets/123689924/c5b2fb2c-0f3d-40ba-83bd-e6f7f20c1804)
+![image](https://github.com/FDanielMC/AREP_LAB-4/assets/123689924/30715997-b35a-4e50-a0ab-4ef3df6e9ef3)
 
-![image](https://github.com/FDanielMC/AREP_LAB-3/assets/123689924/394f3523-1787-40c8-a720-8fa0a61e2ad7)
-
-![image](https://github.com/FDanielMC/AREP_LAB-3/assets/123689924/cea8296b-43cc-4769-8182-f00fd668abb7)
-
-![image](https://github.com/FDanielMC/AREP_LAB-3/assets/123689924/43ed16ec-1ad2-4d81-bb89-5c823549b8ef)
-
-  ### Caso de Prueba: Uso de POST
-  * Mediante Postman se hará la prueba, así ver que la aplicación también recibe peticios HTTP del tipo POST:
-      - Por ahora el único recurso que recibe peticiones del tipo POST es /action/update y en caso de que el recurso no esté saldrá la página de error. 
-
-![image](https://github.com/FDanielMC/AREP_LAB-3/assets/123689924/0e58b30c-2e27-45e9-a726-163606f98e2b)
-
-![image](https://github.com/FDanielMC/AREP_LAB-3/assets/123689924/ce08fae5-a180-41fa-9e8b-b250894c7210)
+![image](https://github.com/FDanielMC/AREP_LAB-4/assets/123689924/b97701dc-d27c-483f-91e8-a7998f186229)
 
 ## DESARROLLADO CON
 
