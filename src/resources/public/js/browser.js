@@ -8,7 +8,7 @@ browser = (() => {
             document.getElementById("pelicula").innerHTML =
                 this.responseText;
         }
-        xhttp.open("GET", "/movies?name=" + nameMovie);
+        xhttp.open("GET", "/activity/movies?name=" + nameMovie);
         xhttp.send();
     }
 

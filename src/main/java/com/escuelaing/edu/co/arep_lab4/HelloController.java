@@ -11,6 +11,4 @@ public class HelloController {
         MovieClient.responseType("text/html");
         return "<h1>" + p.get("mensaje") + "</h1>";
     }
-
-
 }

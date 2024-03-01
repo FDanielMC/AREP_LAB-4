@@ -5,18 +5,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/browser.css">
-    <script src="js/browser.js"></script>
     <title>Filmoteca</title>
 </head>
 
 <body>
     <div class="container">
-        <h1>Filmoteca</h1>
-        <label>¡Busca tu película Favorita!</label>
-        <input type="text" id="nombre-pelicula" placeholder="Ingrese el nombre de la película" name="name">
-        <button onclick="browser.consultMovie()">Consultar</button>
-        <div id="pelicula"></div>
+        <h1>Buscador de películas</h1>
+        <label for="name">¡Busca tu peli!</label>
+        <input type="text" id="name" name="name" placeholder="Escribe tu peli">
+        <input type="button" value="Buscar" onclick="browserv2.loadGetMsg()">
+        <div id="getrespmsg" class="movie-details">
+            <img id="poster" src="" alt="Movie Poster">
+            <div>
+                <h2 class="title">Titulo de la película</h2>
+                <p class="director">Director: Nombre del director</p>
+                <p class="released">Fecha de lanzamiento: Fecha de lanzamiento de la película</p>
+                <p class="actors">Actores: Lista de actores principales</p>
+                <p class="language">Idioma: Idioma de la pelicula</p>
+                <p class="plot">Trama: Descripción de la trama de la película</p>
+            </div>
+        </div>
     </div>
+    <script src="js/browserv2.js"></script>
 </body>
-
 </html>
