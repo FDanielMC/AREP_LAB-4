@@ -46,7 +46,6 @@ En caso que no aparezcan el JAVADOC luego de haber ejecutado ese comando se pued
 
 ```
 1. En un IDE de desarrollo o en la línea de comandos se ejecuta la clase MovieClient.java, se recomienda hacerlo desde la línea de comandos. 
-
 ```
 
 Si desea hacerlo usando la linea de comandos, use los siguientes comandos (se recomienda hacerlo de esta manera):
