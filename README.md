@@ -62,17 +62,18 @@ mvn test
   ### Caso de Prueba: Buscar archivos estáticos
   * ingresar a la URL http://localhost:35000/Browser.html
 
-  
+![image](https://github.com/FDanielMC/AREP_LAB-4/assets/123689924/2f8d5ec1-eda4-4cbc-9d40-42cbabcad319)
+
+![image](https://github.com/FDanielMC/AREP_LAB-4/assets/123689924/4e4794d8-63b7-4429-a9f6-d55df1664012)
 
   * En caso que no esté el recurso o no se busque ningún recurso saldrá la página de error 404:
-
 
 ![image](https://github.com/FDanielMC/AREP_LAB-3/assets/123689924/5d3c45d0-0b91-4224-b69f-1517fffa42e7)
 
 ![image](https://github.com/FDanielMC/AREP_LAB-3/assets/123689924/8f0825fe-113e-4f59-bf11-d69044f5ebe7)
 
-  ## Caso de Prueba: Buscar recursos REST con consukltas
-  * A su vez se puede ingresar parámetros en los recursos para poder interactuar con la página de cada recurso:
+  ## Caso de Prueba: Buscar recursos REST con consultas
+  * A su vez se puede ingresar parámetros en los recursos para poder interactuar con la página de cada recurso: /action/movies?name=(nombre película) y /action/Mensaje?mensaje=(mensaje que aparezca en pantalla)
 
 ![image](https://github.com/FDanielMC/AREP_LAB-3/assets/123689924/c5b2fb2c-0f3d-40ba-83bd-e6f7f20c1804)
 
